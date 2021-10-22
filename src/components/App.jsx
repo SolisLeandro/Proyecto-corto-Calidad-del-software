@@ -1,7 +1,15 @@
 import React from "react"
-const App = () =>{
+import { BrowserRouter, Switch, Route, Link, HashRouter, Redirect } from "react-router-dom"
+import Login from "../pages/login/login.jsx"
+
+const App = () => {
     return (
-        <h1>Hello!!!</h1>
+        <BrowserRouter>
+            <Switch>
+                <Redirect exact from="/" to="/login" />
+                <Route path="/login"> <Login></Login></Route>
+            </Switch>
+        </BrowserRouter>
     )
 }
 
