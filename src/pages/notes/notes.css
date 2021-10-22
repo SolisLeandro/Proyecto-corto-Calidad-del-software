@@ -1,0 +1,24 @@
+.notes-general-div {
+    margin: 0% 20%;
+    background-color: #efefef;
+    margin-top: 0px;
+    height: 78vh;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes-title {
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.notes-scroll-div {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
