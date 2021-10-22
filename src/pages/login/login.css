@@ -1,0 +1,90 @@
+#root {
+    height: 100%;
+}
+
+html, body{
+    height: 100%;
+}
+
+.login-general-div {
+    background-color: azure;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-topDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.login-form-div {
+    border-radius: 15px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10%;
+    padding: 6% 5% 6% 5%;
+    max-height: 435px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-form-title {
+    color: floralwhite;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.login-form-text {
+    color: white;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.login-form-h1 {
+    color: white;
+    font-family: system-ui;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.login-form-input {
+    padding: 3px 15px 3px 15px;
+    border-color: transparent;
+    border-radius: 13px;
+    color: rgb(24, 24, 24);
+    font-family: system-ui;
+}
+
+.login-form-input:focus{
+    padding: 3px 15px 3px 15px;
+    border-color: transparent;
+    border-radius: 13px;
+    color: rgb(24, 24, 24);
+    font-family: system-ui;
+    background-color: rgb(233, 249, 255);
+    outline: unset;
+}
+
+.login-form-button{
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 30px 5px;
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 700;
+    text-transform: uppercase;
+}

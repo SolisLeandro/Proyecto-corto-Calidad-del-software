@@ -6,9 +6,13 @@ module.exports = {
     output: {
         path: path.resolve(__dirname,'dist'),
         filename: 'build.js',
+        publicPath: '/',
     },
     resolve: {
         extensions: ['.js','.jsx']
+    },
+    devServer: {
+        historyApiFallback: true
     },
     module: {
         rules: [
@@ -26,6 +30,10 @@ module.exports = {
                         loader: 'html-loader'
                     }
                 ]
+            },
+            {
+                test: /\.css?$/,
+                use: ['style-loader', 'css-loader']
             }
         ]
     },
