@@ -1,0 +1,42 @@
+.stickyNote-general-div{
+    background-color: floralwhite;
+    padding: 6px 40px;
+}
+
+.stickyNote-title{
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.stickyNote-text{
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.noLinkStyle {
+    text-decoration: none;
+}
+
+.noLinkStyle:focus {
+    text-decoration: none;
+}
+
+.noLinkStyle:hover {
+    text-decoration: none;
+}
+
+.noLinkStyle:visited {
+    text-decoration: none;
+}
+
+.noLinkStyle:link {
+    text-decoration: none;
+}
+
+.noLinkStyle:active {
+    text-decoration: none;
+}
