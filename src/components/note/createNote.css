@@ -1,0 +1,40 @@
+.note-general-div {
+    margin: 0% 20%;
+    background-color: floralwhite;
+    margin-top: 0px;
+    height: 81vh;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.note-title {
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.note-date {
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.note-text {
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+}

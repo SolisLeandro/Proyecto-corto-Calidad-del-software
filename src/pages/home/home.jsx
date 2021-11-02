@@ -4,6 +4,7 @@ import Topbar from "../../components/topbar/topbar"
 import Notes from "../notes/notes"
 import Note from "../note/note"
 import Profile from "../profile/profile"
+import CreateNote from "../../components/note/createNote"
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
                 <Redirect exact from="/home" to="/home/notes" />
                 <Route path="/home/notes"> <Notes></Notes></Route>
                 <Route path="/home/note"> <Note></Note></Route>
+                <Route path="/home/createNote"> <CreateNote></CreateNote></Route>
                 <Route path="/home/profile"> <Profile></Profile></Route>
             </Switch>
         </BrowserRouter>
