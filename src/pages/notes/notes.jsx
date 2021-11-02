@@ -39,8 +39,8 @@ const Notes = () => {
             <div className="note-top">
                 <div></div>
                 <h1 className="notes-title">Tus notas</h1>
-                <Link to={{pathname:"/home/createNote", state: { userId:USER_ID}}}>
-                    <button>Crear Nota</button>
+                <Link id="createNoteLink" to={{pathname:"/home/createNote", state: { userId:USER_ID}}}>
+                    <button id="createNoteButton" className="notes-button">Crear Nota</button>
                 </Link>
             </div>
             <div className="notes-scroll-div">

@@ -20,6 +20,7 @@
 .note-title {
     color: darkslategrey;
     font-family: system-ui;
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 25px;
 }
@@ -37,4 +38,43 @@
     font-weight: 500;
     font-size: 20px;
     text-align: justify;
+}
+
+.note-edit-button{
+    background-color: cadetblue;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin: 30px 5px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.note-textArea{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: grey;
+    height: 33vh;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.note-input{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: grey;
+    width: 35%;
+    color: darkslategrey;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 25px;
 }

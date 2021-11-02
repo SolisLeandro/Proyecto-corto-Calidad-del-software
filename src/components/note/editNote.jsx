@@ -9,12 +9,12 @@ const EditNote = (props) => {
     return (
         <div className="note-general-div">
             <div className="note-top">
-                <input onChange={(value)=>setTitle(value.target.value)} className="note-title" value={title}></input>
-                <h1 className="note-date">{date}</h1>                
-                <button onClick={()=>updateNoteButtonAction(id,title,content)}>Guardar</button>
-                <button onClick={cancelNoteButtonAction}>Cancelar</button>
+                <input id="note-input-title" className="note-input" onChange={(value)=>setTitle(value.target.value)}  value={title}></input>
+                <h1 id="note-date" className="note-date">{date}</h1>                
+                <button id="note-save-button" className="note-edit-button" onClick={()=>updateNoteButtonAction(id,title,content)}>Guardar</button>
+                <button id="note-cancel-button" className="note-edit-button" onClick={cancelNoteButtonAction}>Cancelar</button>
             </div>
-            <textarea onChange={(value)=>setContent(value.target.value)} className="note-text" value={content}></textarea>
+            <textarea id="note-textarea-content" className="note-textArea" onChange={(value)=>setContent(value.target.value)} value={content}></textarea>
         </div>
     )
 }
