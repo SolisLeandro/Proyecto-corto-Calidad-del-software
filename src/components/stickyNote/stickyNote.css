@@ -17,6 +17,18 @@
     font-size: 17px;
 }
 
+.stickyNote-deleteButton {
+    background-color: #ff6060;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 13px;
+    color: floralwhite;
+    font-family: system-ui;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .noLinkStyle {
     text-decoration: none;
 }

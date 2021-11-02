@@ -38,3 +38,16 @@
     font-size: 20px;
     text-align: justify;
 }
+
+.note-show-button{
+    background-color: cadetblue;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin: 30px 5px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 700;
+    text-transform: uppercase;
+}

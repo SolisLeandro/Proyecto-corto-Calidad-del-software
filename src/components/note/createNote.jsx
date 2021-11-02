@@ -16,16 +16,17 @@ const CreateNote = () => {
 
     return (
         <div className="note-general-div">
+            <h1 className="note-title">Crear nota</h1> 
             <div className="note-top">
-                <input onChange={(value)=>setTitle(value.target.value)} className="note-title" value={title}></input>
+                <input id="note-input-title" className="note-input" onChange={(value)=>setTitle(value.target.value)} value={title}></input>
                 <Link to={{ pathname: "/home/notes" }} onClick={()=>createNoteButtonAction(userId,title,content)} className="noLinkStyle" >
-                    <button>Guardar</button>
+                    <button id="note-save-button" className="note-edit-button">Guardar</button>
                 </Link>
                 <Link to={{ pathname: "/home/notes" }} className="noLinkStyle" >
-                    <button>Cancelar</button>
+                    <button id="note-cancel-button" className="note-edit-button">Cancelar</button>
                 </Link>
             </div>
-            <textarea onChange={(value)=>setContent(value.target.value)} className="note-text" value={content}></textarea>
+            <textarea id="note-textarea-content" className="note-textArea" onChange={(value)=>setContent(value.target.value)} value={content}></textarea>
         </div>
     )
 }
